@@ -6,7 +6,7 @@ services:
     volumes:
       - ./data/db:/var/lib/postgresql/data
     environment:
-      - POSTGRES_DB=db_v2
+      - POSTGRES_DB=db_v1
       - POSTGRES_USER=user1
       - POSTGRES_PASSWORD=user1
   django_gunicorn:
