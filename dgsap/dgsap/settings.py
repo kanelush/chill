@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'dgsap.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db_v2',
+        'NAME': 'db_v1',
         'USER': 'user1',
         'PASSWORD': 'user1',
         'HOST': 'db',
